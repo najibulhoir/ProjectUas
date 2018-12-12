@@ -1,11 +1,12 @@
-import { Component, OnInit, Injectable } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import {NgForm} from "@angular/forms";
-
-import {NotificationService} from "../../shared/notification.service";
 import * as firebase from 'firebase/app';
 
+import {NotificationService} from "../../shared/notification.service";
 
-@Injectable()
+
+
+
 @Component({
   selector: 'app-sign-up',
   templateUrl: './sign-up.component.html',

@@ -1,10 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import {NgForm} from "@angular/forms";
-import {NotificationService} from "../../shared/notification.service";
 import * as firebase from 'firebase/app';
+
 import {MyFireService} from "../../shared/myfire.service";
 import {UserService} from "../../shared/user.service";
 import {Router} from "@angular/router";
+import {NotificationService} from "../../shared/notification.service";
 
 
 @Component({
